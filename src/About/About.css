@@ -1,0 +1,60 @@
+.about-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.about-main p {
+    width: 300px;
+    text-align: justify;
+    text-indent: 40px;
+
+}
+
+.about-main ul {
+    list-style: none;
+    margin-bottom: 0px;
+    margin-right: 50px;
+}
+
+
+
+.about-main h3 {
+    font-family: 'Homemade Apple', cursive;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#about-address, #about-phone {
+    display: none;
+}
+
+#about-address:link, #about-address:visited {
+    color: black;
+    text-decoration: none;
+}
+
+#about-address:hover {
+    opacity: .5;
+}
+
+#about-address:active, #about-phone:link, #about-phone:visited, #about-phone:active {
+    color: black;
+    text-decoration: none;
+}
+
+#about-phone:hover {
+    opacity: .5;
+}
+
+@media all and (max-width: 410px) {
+    .about-main {
+        margin-top: 0px;
+    }
+
+    #about-address, #about-phone {
+        display: initial;
+    }
+}

@@ -1,0 +1,28 @@
+.main-footer {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    justify-content: flex-end;
+    background: whitesmoke;
+    border-top: 1px solid black;
+}
+
+.footer-item {
+    margin: 20px;
+}
+
+#address:link, #address:visited, address:active {
+    color: black;
+    text-decoration: none;
+}
+
+#address:hover {
+    opacity: .5;
+}
+
+@media all and (max-width: 410px) {
+    .main-footer {
+        display: none;
+    }
+}

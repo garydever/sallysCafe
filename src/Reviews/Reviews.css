@@ -1,0 +1,35 @@
+.review-main {
+    margin-top: 40px;
+    margin-bottom: 75px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto 20px auto;
+    width: 500px;
+    font-style: italic; 
+}
+
+.quotePerson {
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+@media all and (max-width: 410px) {
+    .review {
+        width: 80%;
+        margin: 0px auto 15px auto;
+    }
+
+    .review-main {
+        margin-top: 0px;
+    }
+
+    .quotePerson {
+        margin-right: 15px;
+    }
+}

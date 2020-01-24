@@ -1,0 +1,41 @@
+
+.thumb-gallery {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.defaultImage {
+    padding: 10px;
+    opacity: .5;
+}
+
+.activeImage {
+    padding: 10px;
+}
+
+.defaultImage:hover, .activeImage:hover {
+    cursor: pointer;
+}
+
+.featured {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+@media all and (max-width: 410px) {  
+    .defaultImage, .activeImage {
+        opacity: 1;
+        width: 100%;
+    }
+
+    .defaultImage:hover, .activeImage:hover {
+        cursor: default;
+    }
+
+    .featured {
+        display: none;
+    }
+  }

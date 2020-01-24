@@ -1,0 +1,45 @@
+.NavBar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+    border-bottom: 3px solid black;
+}
+
+
+.NavBar h2 {
+    margin-top: 0;
+    margin-bottom: 3px;
+    text-align: center;
+    font-family: 'Homemade Apple', cursive;
+}
+
+h2:hover {
+    cursor: pointer;
+}
+
+.logoLinks {
+    display: flex;
+}
+
+.fa {
+    padding: 5px;
+    font-size: 25px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 5px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+      color: grey;
+  }
+  
+  .fa-facebook {
+    color: black;
+  }
+
+  .fa-instagram {
+    color: black;
+  }
