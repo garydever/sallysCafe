@@ -4,10 +4,11 @@ import './About.css';
 export class About extends React.Component {
     render () {
         return (
+            <div className="about-container">
             <div className="about-main">
                     <p>
                         Sally's Cafe was founded in 1987 by TV talk show host Sally Jesse Raphael. 
-                        For well over 30 years, Sally's has served delicious home-cooked food in
+                        For more than 30 years, Sally's has served delicious home-cooked food in
                         West Philadelphia. Join us 7 days a week for breakfast, lunch, or dinner.
                     </p>
                     <ul>
@@ -19,6 +20,7 @@ export class About extends React.Component {
                     </ul>
                     <h3>See you soon!</h3>
                     <h3>... Sally</h3>
+            </div>
             </div>
         )
     }

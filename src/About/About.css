@@ -1,9 +1,10 @@
+
+
 .about-main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 60px;
-    margin-bottom: 50px;
+    height: 100%;
 }
 
 .about-main p {

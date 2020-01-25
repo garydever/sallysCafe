@@ -14,7 +14,7 @@ export class NavBar extends React.Component {
     }
 
     logoLink(e) {
-        this.props.setPage('About');
+        this.props.setPage('Home');
         e.preventDefault();
     }
 

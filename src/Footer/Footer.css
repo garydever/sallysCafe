@@ -3,13 +3,14 @@
     position: fixed;
     width: 100%;
     bottom: 0;
-    justify-content: flex-end;
+    justify-content: center;
     background: whitesmoke;
     border-top: 1px solid black;
+    font-size: smaller;
 }
 
 .footer-item {
-    margin: 20px;
+    margin: 10px 30px;
 }
 
 #address:link, #address:visited, address:active {
@@ -19,6 +20,20 @@
 
 #address:hover {
     opacity: .5;
+}
+
+#footer-phone:link, #footer-phone:visited, #footer-phone:active {
+    color: black;
+    text-decoration: none;
+}
+
+#footer-phone:hover {
+    opacity: .5;
+    cursor: pointer;
+}
+
+#copyright {
+    font-style: italic;
 }
 
 @media all and (max-width: 410px) {

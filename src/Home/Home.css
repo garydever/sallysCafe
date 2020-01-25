@@ -1,0 +1,45 @@
+.home-main {
+    margin-top: 0px;
+}
+
+.home-info {
+    list-style: none;
+    text-align: center;
+    margin-right: 35px;
+    display: none;
+    font-size: small;
+    margin-top: 0px;
+;}
+
+.home-info li {
+    width: 100%;
+}
+
+#home-address:link, #home-address:visited, #home-address:active {
+    color: black;
+    text-decoration: none;
+}
+
+#home-address:hover {
+    opacity: .5;
+}
+
+#home-phone:link, #home-phone:visited, #home-phone:active {
+    color: black;
+    text-decoration: none;
+}
+
+#home-phone:hover {
+    opacity: .5;
+}
+
+.home-main img {
+    width: 100%;
+}
+
+@media all and (max-width: 410px) {
+.home-info {
+    display: flex;
+    flex-direction: column;
+}
+}

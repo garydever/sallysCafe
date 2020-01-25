@@ -33,7 +33,11 @@
     cursor: pointer;
 }
 
-@media all and (max-width: 410px) {  
+@media all and (max-width: 410px) {
+    .main-menu {
+        margin-top: 20px;
+    }
+    
     .MenuNav {
         margin-left: 0px;
         margin-right: 50px;
